@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width:100%;
+    height: 100% !important;
+    background-color: rgb(3, 37, 3);
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    align-self: center !important;
+}
+.container fieldset{
+    width: 40%;
+    background-color: whitesmoke;
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    align-self: center !important;
+    padding: 2%;
+    border-radius :16px;
+    border-style: none;
+    box-shadow: 0px 10px 0px 10px rgba(0,0,0,0.2);
+}
+.container fieldset legend img{
+    border: 10px solid  rgb(3, 37, 3);
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #dfd;
+}
+.container fieldset form{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.container fieldset form input{
+    width: 96%;
+    padding-top: 8px;
+    padding-left: 2%;
+    margin-top: 16px;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+}
+.container fieldset form input:hover{
+    border-bottom: 2px solid skyblue;
+}
+.container fieldset form input:focus{
+    border-bottom: 2px solid blue;
+}
+.container fieldset form .btn{
+    width: 60%;
+    border-style: none;
+    color: black;
+    background-color: rgb(2, 63, 2);
+    outline: none;
+    font-size: large;
+    padding: 8px;
+    border-radius: 16px;
+}
+.container fieldset form .btn:hover{
+    background-color: rgb(97, 205, 97);
+    border-style: none;
+    cursor: pointer;
+}
+.container fieldset form .btn:active{
+    background-color: rgb(173, 223, 173);
+}
