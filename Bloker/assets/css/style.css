@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.nav{
+.nav, .footer{
     width: 100%;
     display: block;
     overflow: hidden;
-    background-color:#5901f2;
+    background-color:#0155f2;
 }
 .nav .logo {
     float: left;
