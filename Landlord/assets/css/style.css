@@ -181,6 +181,15 @@
         padding:4px;
         margin-top:0%;
     }
+    .container .main-content .card .cd1{
+        background-color: rgb(174, 241, 242);
+    }
+    .container .main-content .card .cd2{
+        background-color: rgb(29, 196, 148);
+    }
+    .container .main-content .card .cd3{
+        background-color: rgb(139, 228, 95);
+    }
     .container .main-content .card .card1:hover{
         background-color: rgb(7, 18, 101);
         cursor: pointer;
