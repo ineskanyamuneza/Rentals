@@ -14,22 +14,13 @@
             <h2 class="number">80</h2>
          </div>
 
-<<<<<<< HEAD
-           </div>
-           <div class="card1 cd2">
-=======
          <div class="card1 cd2">
->>>>>>> d66ea35b3fad54560da4ae32803c2a552f2e9b92
             <h2>Tenants</h2>
             <hr>
             <h2 class="number">18900</h2>
 
            </div>
-<<<<<<< HEAD
-           <div class="card1 cd3">
-=======
           <div class="card1 cd3">
->>>>>>> d66ea35b3fad54560da4ae32803c2a552f2e9b92
             <h2>Houses</h2>
             <hr>
             <h2 class="number">1900</h2>
