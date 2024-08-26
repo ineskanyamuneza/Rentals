@@ -181,8 +181,17 @@
         padding:4px;
         margin-top:0%;
     }
+    .container .main-content .card .cd1{
+        background-color: rgb(225, 148, 5);
+    }
+    .container .main-content .card .cd2{
+background-color: red;
+    }
+    .container .main-content .card .cd3{
+background-color: aqua;
+    }
     .container .main-content .card .card1:hover{
-        background-color: rgb(7, 18, 101);
+        background-color: rgb(122, 123, 134);
         cursor: pointer;
     
     }
@@ -191,7 +200,7 @@
         margin: 6%;
         height: 7rem;
         border-radius: 16px;
-        background-color:rgb(253, 254, 255);
+        background-color: rgb(247, 241, 241);
         float: left;
         box-shadow: 0px 0px 10px 10px  rgb(0,0, 0, 0.1) ;
         text-align: center !important;
@@ -199,6 +208,7 @@
         align-content: center !important;
        
     }
+    
     .container .main-content .card1 h2, .number{
         padding: 5px;
     }
