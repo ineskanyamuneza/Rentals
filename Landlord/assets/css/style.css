@@ -182,8 +182,7 @@
         margin-top:0%;
     }
     .container .main-content .card .cd1{
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         background-color: rgb(174, 241, 242);
     }
     .container .main-content .card .cd2{
@@ -191,20 +190,13 @@
     }
     .container .main-content .card .cd3{
         background-color: rgb(139, 228, 95);
-=======
-        background-color: rgb(225, 148, 5);
-=======
-        background-color: rgb(142, 103, 30);
->>>>>>> aef08af98c298b244c74a4abc987d6cc8a23a295
-    }
+ }
     .container .main-content .card .cd2{
 background-color: rgb(255, 208, 0);
     }
     .container .main-content .card .cd3{
 background-color: aqua;
-git add .
->>>>>>> d66ea35b3fad54560da4ae32803c2a552f2e9b92
-    }
+  }
     .container .main-content .card .card1:hover{
         background-color: rgb(122, 123, 134);
         cursor: pointer;
