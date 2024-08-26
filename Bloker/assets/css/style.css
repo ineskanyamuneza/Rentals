@@ -180,6 +180,15 @@
         padding:4px;
         margin-top:0%;
     }
+    .container .main-content .card .cd1{
+        background-color: orangered;
+    }
+    .container .main-content .card .cd2{
+background-color: brown;
+    }
+    .container .main-content .card .cd3{
+background-color: cornflowerblue;
+    }
     .container .main-content .card .card1:hover{
         background-color: rgb(222, 255, 232);
         cursor: pointer;
@@ -203,5 +212,5 @@
     }
     .container .main-content .card1 .number{
         font-size: 38px;
-        color: aqua;
+        color: rgb(7, 7, 7);
     }
