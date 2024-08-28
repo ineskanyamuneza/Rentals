@@ -27,5 +27,5 @@
     </li>
     </li>
     <a href="chat.php"><li>chat</li></a>
-   <a href="index.php"><li>Sign Out</li></a>
+   <a href="logout.php"><li>Sign Out</li></a>
 </ul>

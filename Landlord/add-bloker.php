@@ -20,7 +20,7 @@ echo substr(str_shuffle('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrs
 
 
             <input type="submit" value="Add" class="btn">
-            <input type="reset" value="Cuncel" class="btn1">
+            <input type="reset" value="Cancel" class="btn1">
 
          </form>
          </center>
