@@ -1,3 +1,10 @@
+<?php session_start(); ?>
+<?php if($_SESSION['admin']==""){
+    header('location:index.php');
+} ?>
+<?php
+include 'config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,11 +23,12 @@
     </div>
     <div class="ines">
         <ul>
-            <li>Lucky
+            <li><?php echo $_SESSION['name']; ?>
                 <div class="subtab">
                     <ul>
                         <li><a href="dashboard.php"><img src="images/user.jpeg" width="150px" height="150px"alt=""></IMg></a></li>
-                        <li><a href="#">Change password</a></li><li><a href="index.php">Logout</a></li>
+                        <li><a href="#">Change password</a></li>
+                        <li><a href="logout.php">Logout</a></li>
                         
                     </ul>
                 </div>

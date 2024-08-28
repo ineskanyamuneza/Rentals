@@ -72,3 +72,17 @@
 .container fieldset form .btn:active{
     background-color: rgb(173, 223, 173);
 }
+.container fieldset .alert{
+    width: 100%;
+    background-color: rgb(216, 85, 38);
+    border-radius: 16px;
+    border: 0.1 solid gray;
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center !important;
+}
+.container fieldset .alert h4{
+    color: black;
+    padding: 8px;
+    text-align: center;
+}

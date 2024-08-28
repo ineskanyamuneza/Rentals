@@ -1,3 +1,5 @@
+<?php
+include 'includes/config.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +14,36 @@
 <center>
     <fieldset>
         <legend><img src="images/rent.jpg" width="100" height="100" alt=""></legend>
-        <form action="dashboard.php" method="post">
+        <?php
+        if(isset($_POST['login'])){
+            $email=$_POST['email'];
+            $password=$_POST['password'];
+            $select=mysqli_query($conn,"select * from tbl_admin where Email='".$email."' and pass='".$password."'");
+            if($row=mysqli_fetch_array($select)){
+                session_start();
+                $_SESSION['admin']=$row['admin_id'];
+                $_SESSION['name']=$row['userName'];
+                $_SESSION['Email']=$row['Email'];
+                header('location:dashboard.php');
+               
+                }else{
+                    ?>
+
+                    <div class="alert">
+                        <h4>Password or Email is incorrect</h4>
+                    </div>
+                    <?php
+                    
+
+                }
+
+        }
+        ?>
+
+        <form  method="post">
             <input type="email" name="email" placeholder="example@gmail.com" required title="please enter your email" autofocus id="">
             <input type="password" name="password"  placeholder="password" required title="please enter your password" id="">
-            <input type="submit" value="Login" class="btn">
+            <input type="submit" name="login" value="Login" class="btn">
 </form>
          </fieldset>
 </center>
