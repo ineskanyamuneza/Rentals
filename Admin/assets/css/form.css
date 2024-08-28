@@ -1,0 +1,41 @@
+.container .main-content .card form{
+    width: 40%;
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    align-self: center !important;
+    margin-top: 2%;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 16px;
+    padding: 4%;
+
+}
+.container .main-content .card form input{
+    padding: 8px;
+    margin: 18px;
+    width: 90%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 16px;
+
+}
+.container .main-content .card form .btn{
+    background-color: rgb(1, 67, 1);
+    color: aliceblue;
+    font-size: larger;
+    width: 80%;
+}
+.container .main-content .card form .btn:hover{
+    background-color: rgb(5, 95, 5);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px rgba(2, 32, 2, 0.1);
+    outline: none;
+
+}
+.container .main-content .card form input:focus{
+    border: 1px solid rgb(2, 142, 248);
+    box-shadow: 0px 0px 5px 5px rgba(2, 142, 248, 0.1);
+}
+.container .main-content .card form input:hover{
+    border: 1px solid rgb(6, 191, 93);
+}

@@ -2,7 +2,7 @@
     <li>Address
         <div class="tab">
             <ul>
-                <a href="#"><li>Add Address</li></a>
+                <a href="add-address.php"><li>Add Address</li></a>
                 <a href="#"><li>View Address</li></a>
             </ul>
         </div>

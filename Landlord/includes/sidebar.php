@@ -1,19 +1,18 @@
 <ul>
+<li>Blokers
+   <div class="tab">
+            <ul>
+                <a href="add-bloker.php"><li>Add Bloker</li></a>
+                <a href="#"><li>Approved Bloker</li></a>
+                
+            </ul>
+        </div>
+    </li>
     <li>Houses
         <div class="tab">
             <ul>
                 <a href="#"><li>Add house</li></a>
                 <a href="#"><li>View houses</li></a>
-            </ul>
-        </div>
-    </li>
-   
-    <li>Blokers
-   <div class="tab">
-            <ul>
-                <a href="#"><li>Add Bloker</li></a>
-                <a href="#"><li>Approved Bloker</li></a>
-                
             </ul>
         </div>
     </li>

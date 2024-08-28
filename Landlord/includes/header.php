@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RENTALS</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/form.css">
     <link rel="shortcut icon" href="images/rent.jpg" type="image/jpg">
 </head>
 <body>
