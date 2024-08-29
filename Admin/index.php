@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 <?php include 'includes/config.php'; ?> 
+=======
+<?php
+include 'includes/config.php';?>
+>>>>>>> 9daf753f14d2653f8dd8fbe29b496629ab0d7718
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +18,11 @@
 <center>
     <fieldset>
         <legend><img src="images/rent.jpg" width="100" height="100" alt=""></legend>
+<<<<<<< HEAD
         <?php 
+=======
+        <?php
+>>>>>>> 9daf753f14d2653f8dd8fbe29b496629ab0d7718
         if(isset($_POST['login'])){
             $email=$_POST['email'];
             $password=$_POST['password'];
@@ -24,6 +33,7 @@
                 $_SESSION['name']=$row['userName'];
                 $_SESSION['Email']=$row['Email'];
                 header('location:dashboard.php');
+<<<<<<< HEAD
             }else{
                 ?>
 <div class="alert">
@@ -35,6 +45,23 @@
             }
         }
         ?>
+=======
+               
+                }else{
+                    ?>
+
+                    <div class="alert">
+                        <h4>Password or Email is incorrect</h4>
+                    </div>
+                    <?php
+                    
+
+                }
+
+        }
+        ?>
+
+>>>>>>> 9daf753f14d2653f8dd8fbe29b496629ab0d7718
         <form  method="post">
             <input type="email" name="email" placeholder="example@gmail.com" required title="please enter your email" autofocus id="">
             <input type="password" name="password"  placeholder="password" required title="please enter your password" id="">
