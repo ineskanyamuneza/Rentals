@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 <?php include 'includes/config.php'; ?> 
-=======
 <?php
 include 'includes/config.php';?>
 >>>>>>> 9daf753f14d2653f8dd8fbe29b496629ab0d7718
