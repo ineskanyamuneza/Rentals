@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-<?php session_start();   ?>
-<?php  if($_SESSION['admin']==""){
-    header('location:index.php');
-} ?>
-<?php include 'config.php'; ?>
-=======
 <?php session_start(); ?>
 <?php if($_SESSION['admin']==""){
     header('location:index.php');
@@ -12,7 +5,6 @@
 <?php
 include 'config.php';
 ?>
->>>>>>> 9daf753f14d2653f8dd8fbe29b496629ab0d7718
 <!DOCTYPE html>
 <html lang="en">
 <head>
