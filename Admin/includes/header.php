@@ -19,7 +19,6 @@ include 'config.php';
 <nav class="nav">
     <div class="logo">
         <img src="images/logo.png" width="180px" alt="">
-
     </div>
     <div class="ines">
         <ul>
