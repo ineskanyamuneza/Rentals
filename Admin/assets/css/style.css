@@ -191,3 +191,33 @@
     font-size: 38px;
     color: aqua;
 }
+.container .main-content .card form .alert{
+    width: 100%;
+    background-color: rgb(232, 86, 86);
+    border-radius: 16px;
+    border: 0.1px solid gray;
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center !important;
+
+}
+.container .main-content .card form .alert h4{
+    color: black;
+    padding: 8px;
+    text-align: center !important;
+}
+.container .main-content .card form .success{
+width: 100%;
+background-color: rgb(60, 149, 48);
+border-radius: 16px;
+border: 0.1px solid gray;
+text-align: center !important;
+align-items: center !important;
+align-content: center !important;
+
+}
+.container .main-content .card form .success h4{
+color: black;
+padding: 8px;
+text-align: center !important;
+}
