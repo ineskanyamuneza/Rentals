@@ -56,15 +56,16 @@
                <th>Action</th>
             </tr>
            <?php
-           $count=0;
-           $ines=mysqli_query($conn,"select * from tbl_address");
+        
+           $count=0; //    so[ do] isfbb kbibldhpi noshoihsblo bosdhgpihe;pgihn
+           $ines=mysqli_query($conn,"select * from tbl_address order by(a_id) DESC limit 3");
            while($rlt=mysqli_fetch_array($ines)){
             $count++;
           ?>
           <tr>
             <td><?php echo $count; ?></td>
             <td><?php echo $rlt['address']; ?></td>
-            <td><a href="#" ><div class="edit">Edit</div></a> <a href="#"><div class="delete">Delete</div></a> </td>
+            <td><a href="#" ><div class="edit">Edit</div></a> <a href="delete-address.php?a=<?php echo $rlt['a_id']; ?>" onclick="return confirm('Are you sure you want to delete <?php echo $rlt['address']; ?>');"><div class="delete">Delete</div></a> </td>
           </tr>
           <?php
            }
