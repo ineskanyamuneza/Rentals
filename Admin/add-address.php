@@ -55,16 +55,20 @@
                <th>ADRESSES</th>
                <th>Action</th>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>Kabagala</td>
-                <td><a href="#" ><div class="delete">Delete</div></a> <a href="#" ><div class="edit">Edit</div></a></td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Kabagala</td>
-                <td><a href="#" ><div class="delete">Delete</div></a> <a href="#" ><div class="edit">Edit</div></a></td>
-            </tr>   
+           <?php
+           $count=0;
+           $ines=mysqli_query($conn,"select * from tbl_address");
+           while($rlt=mysqli_fetch_array($ines)){
+            $count++;
+          ?>
+          <tr>
+            <td><?php echo $count; ?></td>
+            <td><?php echo $rlt['address']; ?></td>
+            <td><a href="#" ><div class="edit">Edit</div></a> <a href="#"><div class="delete">Delete</div></a> </td>
+          </tr>
+          <?php
+           }
+           ?>
             </table>
          </center>
          
