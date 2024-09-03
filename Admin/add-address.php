@@ -46,8 +46,28 @@
             <input type="submit" value="Add" name="add" class="btn">
 
          </form>
+         <table border="1px">
+            <tr>
+                <th colspan="3" class="th">ADDRESS</th>
+            </tr>
+            <tr>
+               <th>#</th> 
+               <th>ADRESSES</th>
+               <th>Action</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Kabagala</td>
+                <td><a href="#" ><div class="delete">Delete</div></a> <a href="#" ><div class="edit">Edit</div></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Kabagala</td>
+                <td><a href="#" ><div class="delete">Delete</div></a> <a href="#" ><div class="edit">Edit</div></a></td>
+            </tr>   
+            </table>
          </center>
-        
+         
         </div>
     </div>
 </div>
