@@ -13,7 +13,7 @@ include 'config.php';
     <title>RENTALS</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/form.css">
-    <link rel="shortcut icon" href="images/rent.jpg" type="image/jpg">
+    <link rel="shortcut icon" href="images/rent.png" type="image/jpg">
 </head>
 <body>
 <nav class="nav">
