@@ -27,7 +27,7 @@ include 'config.php';
                     <ul>
                         <li><a href="dashboard.php"><img src="images/user.jpeg" width="150px" height="150px"alt=""></IMg></a></li>
                         <li><a href="#">Change password</a></li>
-                        <li><a href="logout.php">Logout</a></li>
+                                            <li><a href="logout.php">Logout</a></li>
                     </ul>
                 </div>
 
