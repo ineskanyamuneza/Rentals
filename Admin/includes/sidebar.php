@@ -7,6 +7,14 @@
             </ul>
         </div>
     </li>
+    <li>Nationality
+        <div class="tab">
+            <ul>
+                <a href="add-nationality.php"><li>Add Nationality</li></a>
+                <a href="#"><li>View Nationality</li></a>
+            </ul>
+        </div>
+    </li>
     <li>Landlords
     <div class="tab">
             <ul>
