@@ -134,3 +134,91 @@
 .container .top .house .btn:hover{
     background-color: rgb(102, 171, 198);
 }
+.container .top .p{
+    padding: 2%;
+}
+.container .top .p a .btn{
+    width: auto;
+   padding: 8px;
+   background-color: rgb(100, 186, 244);
+        border-radius: 16px;
+
+}
+.container .top .p a .btn:hover{
+    background-color: rgb(69, 134, 176);
+
+}
+.container .top .p a{
+    border-style: none;
+    text-decoration: none;
+    padding: 8px;
+
+
+}
+.container .main{
+    height: 100% !important;
+    width: 100%;
+    display: block;
+    align-items: center !important;
+    align-content: center !important;
+    align-self: center !important;
+    overflow: auto;
+    background-image: url('../../images/ochmm4zi.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgb(196, 201, 200);
+
+}
+.container .main fieldset{
+    width: 40%;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.1);
+    margin: 2%;
+    border: 1px solid gray;
+    background-color: white
+}
+.container .main fieldset legend{
+ text-align: center !important;
+ align-items: center !important;
+ align-content: center !important;
+ border: 1px solid grey ;
+ display: block;
+ overflow: hidden;
+ border-radius: 50%;
+
+}
+.container .main fieldset input, select{
+    width: 90%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 16px;
+    outline: none;
+    border-style: none;
+    border: 1px solid gray;
+}
+.container .main fieldset form .radio{
+    width: 100%;
+    display: inline-flex;
+    overflow: hidden;
+    padding: 2%;
+
+}
+.container .main fieldset form .radio input{
+    width: auto ;
+    margin-left: 6%;
+    padding: 2%;
+    margin-top: 4px;
+}
+.container .main fieldset form .btn{
+    background-color: rgb(41, 156, 41);
+
+}
+.container .main fieldset form .btn:hover{
+    background-color: rgb(55, 185, 55);
+    cursor: pointer;
+}
+.container .main fieldset  h5{
+    padding: 8px;
+    font-size: 18px;
+}

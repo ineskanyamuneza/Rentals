@@ -58,14 +58,14 @@
            <?php
         
            $count=0; //    so[ do] isfbb kbibldhpi noshoihsblo bosdhgpihe;pgihn
-           $ines=mysqli_query($conn,"select * from tbl_nationality order by(n_id) DESC limit 3");
+           $ines=mysqli_query($conn,"select * from tbl_nationality order by(n_id) DESC limit 100");
            while($rlt=mysqli_fetch_array($ines)){
             $count++;
           ?>
           <tr>
             <td><?php echo $count; ?></td>
             <td><?php echo $rlt['nationality']; ?></td>
-            <td><a href="#" ><div class="edit">Edit</div></a> <a href="delete-nationality.php?n=<?php echo $rlt['n_id']; ?>" onclick="return confirm('Are you sure you want to delete <?php echo $rlt['nationality']; ?>');"><div class="delete">Delete</div></a> </td>
+            <td><a href="edit-nationality.php?u=<?php echo $rlt['n_id']; ?>" ><div class="edit">Edit</div></a> <a href="delete-nationality.php?n=<?php echo $rlt['n_id']; ?>" onclick="return confirm('Are you sure you want to delete <?php echo $rlt['nationality']; ?>');"><div class="delete">Delete</div></a> </td>
           </tr>
           <?php
            }

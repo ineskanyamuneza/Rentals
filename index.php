@@ -22,6 +22,11 @@ for ($x=0; $x < 12; $x++) {
 }
 ?>
 </div>
+<div class="top">
+    <p class="p">
+        Are you a landload and you want to register yoour houses with us? click here to register with us now..  <a href="landlord-signup.php"><span class="btn">Register With us Here</span></a>
+  </p>
+</div>
 </div>
 <?php
 include 'includes/footer.php';
