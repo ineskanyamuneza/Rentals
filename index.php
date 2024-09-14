@@ -4,7 +4,7 @@ include 'includes/header.php';
 <div class="container">
 <div class="top">
 <?php 
-for ($x=0; $x < 12; $x++) { 
+for ($x=0; $x < 16; $x++) { 
     ?>
 <div class="house">
 <img src="images/houses/R.jpeg" width="295" height="150" alt="">
