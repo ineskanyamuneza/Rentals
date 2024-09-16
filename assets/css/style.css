@@ -199,12 +199,22 @@
     height: 100%;
     object-fit: cover;
 }
-.container .main fieldset input, select{
+.container .main fieldset input{
     width: 90%;
     padding: 8px;
     margin: 8px;
     border-radius: 16px;
     outline: none;
+    border-style: none;
+    border: 1px solid gray;
+}
+.container .main fieldset select{
+    width: 94%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 16px;
+    outline: none;
+  
     border-style: none;
     border: 1px solid gray;
 }
@@ -232,4 +242,8 @@
 .container .main fieldset  h5{
     padding: 8px;
     font-size: 18px;
+}
+.container .main fieldset form .lable{
+    float: left;
+    margin-left: 5%;
 }
