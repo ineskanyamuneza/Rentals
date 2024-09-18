@@ -247,3 +247,35 @@
     float: left;
     margin-left: 5%;
 }
+.container .main fieldset .alert{
+    width: 93%;
+    background-color: rgb(232, 86, 86);
+    border-radius: 16px;
+    border: 0.1px solid gray;
+    text-align: center !important;
+    align-items: center !important;
+    margin: 18px;
+    align-content: center !important;
+
+}
+.container .main fieldset .alert h4{
+    color: black;
+    padding: 8px;
+    text-align: center !important;
+}
+.container .main fieldset .success{
+width: 93%;
+background-color: rgb(60, 149, 48);
+border-radius: 16px;
+border: 0.1px solid gray;
+text-align: center !important;
+align-items: center !important;
+align-content: center !important;
+margin: 18px;
+
+}
+.container .main fieldset .success h4{
+color: black;
+padding: 8px;
+text-align: center !important;
+}
