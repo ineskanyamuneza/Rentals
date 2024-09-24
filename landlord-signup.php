@@ -8,6 +8,7 @@
        if(isset($_POST['register'])){
         $name=$_POST['name'];
         $contact=$_POST['contact'];
+        $email=$_POST['email'];
         $gender=$_POST['gender'];
         $address=$_POST['address'];
         $nationality=$_POST['nationality'];
@@ -45,13 +46,34 @@
                      $documentdestination='documents/'.$documentNewName;
                      $documentupload=move_uploaded_file($documentTmp,$documentdestination);
                      if($documentupload){
-                        //  $int=mysqli_query($conn,"insert into testingimage(img_id,image) 
-                        //  values(null,'".$destination."')");
-                        //  if($int){
-                        //     echo "Well done dear";
-                        //  }else{
-                        //     echo "oops! failed to insert";
-                        //  }
+                     $sele=mysqli_query($conn,"select ldEmail from tbl_landlord where ldEmail='$email'");
+                     if($rt=mysqli_fetch_array($sele)){
+                        ?>
+                        <div class="alert">
+                            <h4>Ooops: The email already exist, please use a diffrent email or try loging in.</h4>
+                        </div>
+                        
+                        <?php
+                     }else{
+                        $int=mysqli_query($conn,"insert into tbl_landlord(ld_id,ldName,ldContact,ldEmail,ldProfile,ldDocuments,a_id,g_id,n_id,password) 
+                        values(null,'$name','$contact','$email','$destination','$documentdestination','$address','$gender','$nationality','".md5($password)."')");
+                        if($int){
+                           ?>
+                           <div class="success">
+                               <h4>Your uplication was uploaded successfully</h4>
+                           </div>
+                           
+                           <?php
+                        }else{
+                           ?>
+                           <div class="alert">
+                               <h4>Could not create your account! please try again later...</h4>
+                           </div>
+                           
+                           <?php
+                        }
+                     }
+                        
                      }else{
                         ?>
                         <div class="alert">
@@ -143,7 +165,7 @@
             <input type="text" name="contact" placeholder="Ex: 0787293050">
             <input type="email" name="email" placeholder="example@gmail.com">
             <div class="radio">
-                <input type="radio" name="gender" value="1" id=""><label for="gender">Male</label> <input type="radio" value="Female" name="gender" id="">Female
+                <input type="radio" name="gender" value="1" id=""><label for="gender">Male</label> <input type="radio" value="2" name="gender" id="">Female
             </div>
             <label for="dp" class="lable">Profile Picture</label>
             <input type="file" name="file" id="imageUpload" accept="image/*" placeholder="Choose Your Profile">
